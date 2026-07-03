@@ -9,6 +9,7 @@ Mass spectrometry-based single-cell proteomics (SCP) enables direct and unbiased
 - numpy==2.2.6
 - scanpy==1.11.5
 - pandas==2.3.3
+
 We can successfully run it on a single RTX 2080Ti GPU.
 ## Questions
 If you have any suggestions/ideas for msInfer, please don't hesitate to reach out to us. You can reach us by email(yuzhi@stu.hit.edu.cn).
