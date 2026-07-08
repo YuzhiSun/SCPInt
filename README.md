@@ -12,4 +12,4 @@ Mass spectrometry-based single-cell proteomics (SCP) enables direct and unbiased
 
 We can successfully run it on a single RTX 2080Ti GPU.
 ## Questions
-If you have any suggestions/ideas for msInfer, please don't hesitate to reach out to us. You can reach us by email(yuzhi@stu.hit.edu.cn).
+If you have any suggestions/ideas for SCPInt, please don't hesitate to reach out to us. You can reach us by email(yuzhi@stu.hit.edu.cn).
