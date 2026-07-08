@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280">
+  <defs>
+    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#1a1a2e"/>
+      <stop offset="50%" stop-color="#16213e"/>
+      <stop offset="100%" stop-color="#1a1a2e"/>
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0f3460"/>
+      <stop offset="50%" stop-color="#533483"/>
+      <stop offset="100%" stop-color="#0f3460"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="280" fill="#ffffff" rx="0"/>
+
+  <!-- Horizontal line decoration - top group (thick) -->
+  <rect x="0" y="10" width="800" height="3" fill="url(#topGrad)" opacity="0.9"/>
+  <rect x="0" y="17" width="800" height="1.5" fill="url(#accentGrad)" opacity="0.6"/>
+
+  <!-- Horizontal line decoration - spectrum bars (proteomics/data visualization motif) -->
+  <g opacity="0.12">
+    <rect x="0"   y="38" width="60" height="4" fill="#0f3460"/>
+    <rect x="70"  y="38" width="120" height="4" fill="#16213e"/>
+    <rect x="200" y="38" width="45" height="4" fill="#533483"/>
+    <rect x="255" y="38" width="90" height="4" fill="#0f3460"/>
+    <rect x="355" y="38" width="30" height="4" fill="#16213e"/>
+    <rect x="395" y="38" width="150" height="4" fill="#533483"/>
+    <rect x="555" y="38" width="80" height="4" fill="#0f3460"/>
+    <rect x="645" y="38" width="110" height="4" fill="#16213e"/>
+    <rect x="765" y="38" width="35" height="4" fill="#533483"/>
+  </g>
+
+  <!-- Main title: S C P I n t -->
+  <text x="400" y="110" text-anchor="middle" font-family="Courier New, monospace" font-size="56" font-weight="bold" fill="#1a1a2e" letter-spacing="8">
+    S C P I n t
+  </text>
+
+  <!-- Thin accent line under title -->
+  <rect x="280" y="130" width="240" height="2" fill="url(#accentGrad)" opacity="0.5"/>
+
+  <!-- Subtitle -->
+  <text x="400" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#16213e" font-weight="600" letter-spacing="2.5">
+    Single-Cell Proteomics Integration
+  </text>
+
+  <!-- Thin dashed-style separator (horizontal line motif) -->
+  <g opacity="0.35">
+    <rect x="140" y="190" width="65" height="1.5" fill="#0f3460"/>
+    <rect x="215" y="190" width="65" height="1.5" fill="#0f3460"/>
+    <rect x="290" y="190" width="65" height="1.5" fill="#0f3460"/>
+    <rect x="365" y="190" width="65" height="1.5" fill="#0f3460"/>
+    <rect x="440" y="190" width="65" height="1.5" fill="#0f3460"/>
+    <rect x="515" y="190" width="65" height="1.5" fill="#0f3460"/>
+    <rect x="590" y="190" width="65" height="1.5" fill="#0f3460"/>
+  </g>
+
+  <!-- Tagline -->
+  <text x="400" y="214" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#555555" letter-spacing="1">
+    Explicit disentanglement of biological and batch variation for SCP data
+  </text>
+
+  <!-- Bottom decorative lines -->
+  <rect x="0" y="250" width="800" height="1.5" fill="url(#accentGrad)" opacity="0.5"/>
+  <rect x="0" y="256" width="800" height="3" fill="url(#topGrad)" opacity="0.9"/>
+
+  <!-- Small horizontal line spectrum at bottom -->
+  <g opacity="0.12">
+    <rect x="0"   y="265" width="35" height="3" fill="#533483"/>
+    <rect x="45"  y="265" width="80" height="3" fill="#0f3460"/>
+    <rect x="135" y="265" width="110" height="3" fill="#16213e"/>
+    <rect x="255" y="265" width="55" height="3" fill="#533483"/>
+    <rect x="320" y="265" width="160" height="3" fill="#0f3460"/>
+    <rect x="490" y="265" width="90" height="3" fill="#16213e"/>
+    <rect x="590" y="265" width="70" height="3" fill="#533483"/>
+    <rect x="670" y="265" width="130" height="3" fill="#0f3460"/>
+  </g>
+</svg>

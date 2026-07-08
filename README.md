@@ -1,18 +1,6 @@
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-   ███████╗ ██████╗ ██████╗ ██╗███╗   ██╗████████╗
-   ██╔════╝██╔════╝██╔══██╗██║████╗  ██║╚══██╔══╝
-   ███████╗██║     ██████╔╝██║██╔██╗ ██║   ██║
-   ╚════██║██║     ██╔═══╝ ██║██║╚██╗██║   ██║
-   ███████║╚██████╗██║     ██║██║ ╚████║   ██║
-   ╚══════╝ ╚═════╝╚═╝     ╚═╝╚═╝  ╚═══╝   ╚═╝
-
-          Single-Cell Proteomics Integration
-   ─── Explicit disentanglement of biological and batch ───
-   ───   variation for MS-based SCP data integration    ───
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+<div align="center">
+  <img src="figure/logo.svg" alt="SCPInt" width="640">
+</div>
 
 <div align="center">
 
@@ -204,6 +192,7 @@ SCPInt/
 ├── data/
 │   └── README.md                      # Data download instructions
 ├── figure/
+│   ├── logo.svg                       # Project logo
 │   └── figures1.png                   # Model architecture diagram
 ├── README.md
 └── LICENSE
@@ -263,10 +252,6 @@ This project is licensed under the **MIT License** — see the [LICENSE](LICENSE
 
 <div align="center">
 
-```
-╔══════════════════════════════════════════════════════════════╗
-║  If you find SCPInt useful, please ⭐ star this repository!  ║
-╚══════════════════════════════════════════════════════════════╝
-```
+  > **If you find SCPInt useful, please ⭐ star this repository!**
 
 </div>
