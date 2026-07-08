@@ -1,79 +1,70 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 280" width="800" height="280">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">SCPInt logo</title>
+  <desc id="desc">A refined horizontal-line wordmark for single-cell proteomics integration.</desc>
   <defs>
-    <linearGradient id="topGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#1a1a2e"/>
-      <stop offset="50%" stop-color="#16213e"/>
-      <stop offset="100%" stop-color="#1a1a2e"/>
+    <linearGradient id="ink" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#101820"/>
+      <stop offset="0.46" stop-color="#20313a"/>
+      <stop offset="1" stop-color="#101820"/>
     </linearGradient>
-    <linearGradient id="accentGrad" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0%" stop-color="#0f3460"/>
-      <stop offset="50%" stop-color="#533483"/>
-      <stop offset="100%" stop-color="#0f3460"/>
+    <linearGradient id="signal" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#1b7580"/>
+      <stop offset="0.5" stop-color="#b08d57"/>
+      <stop offset="1" stop-color="#1b7580"/>
     </linearGradient>
+    <filter id="softShadow" x="-5%" y="-20%" width="110%" height="140%">
+      <feDropShadow dx="0" dy="10" stdDeviation="16" flood-color="#101820" flood-opacity="0.10"/>
+    </filter>
   </defs>
 
-  <!-- Background -->
-  <rect width="800" height="280" fill="#ffffff" rx="0"/>
+  <rect width="1200" height="360" fill="#ffffff"/>
 
-  <!-- Horizontal line decoration - top group (thick) -->
-  <rect x="0" y="10" width="800" height="3" fill="url(#topGrad)" opacity="0.9"/>
-  <rect x="0" y="17" width="800" height="1.5" fill="url(#accentGrad)" opacity="0.6"/>
+  <g filter="url(#softShadow)">
+    <rect x="92" y="80" width="1016" height="1.5" fill="#101820" opacity="0.76"/>
+    <rect x="92" y="278" width="1016" height="1.5" fill="#101820" opacity="0.76"/>
 
-  <!-- Horizontal line decoration - spectrum bars (proteomics/data visualization motif) -->
-  <g opacity="0.12">
-    <rect x="0"   y="38" width="60" height="4" fill="#0f3460"/>
-    <rect x="70"  y="38" width="120" height="4" fill="#16213e"/>
-    <rect x="200" y="38" width="45" height="4" fill="#533483"/>
-    <rect x="255" y="38" width="90" height="4" fill="#0f3460"/>
-    <rect x="355" y="38" width="30" height="4" fill="#16213e"/>
-    <rect x="395" y="38" width="150" height="4" fill="#533483"/>
-    <rect x="555" y="38" width="80" height="4" fill="#0f3460"/>
-    <rect x="645" y="38" width="110" height="4" fill="#16213e"/>
-    <rect x="765" y="38" width="35" height="4" fill="#533483"/>
-  </g>
+    <g fill="url(#signal)" opacity="0.92">
+      <rect x="92" y="100" width="84" height="4"/>
+      <rect x="194" y="100" width="38" height="4"/>
+      <rect x="250" y="100" width="126" height="4"/>
+      <rect x="394" y="100" width="56" height="4"/>
+      <rect x="468" y="100" width="188" height="4"/>
+      <rect x="674" y="100" width="42" height="4"/>
+      <rect x="734" y="100" width="152" height="4"/>
+      <rect x="904" y="100" width="70" height="4"/>
+      <rect x="992" y="100" width="116" height="4"/>
 
-  <!-- Main title: S C P I n t -->
-  <text x="400" y="110" text-anchor="middle" font-family="Courier New, monospace" font-size="56" font-weight="bold" fill="#1a1a2e" letter-spacing="8">
-    S C P I n t
-  </text>
+      <rect x="92" y="256" width="130" height="4"/>
+      <rect x="240" y="256" width="54" height="4"/>
+      <rect x="312" y="256" width="178" height="4"/>
+      <rect x="508" y="256" width="46" height="4"/>
+      <rect x="572" y="256" width="112" height="4"/>
+      <rect x="702" y="256" width="78" height="4"/>
+      <rect x="798" y="256" width="184" height="4"/>
+      <rect x="1000" y="256" width="108" height="4"/>
+    </g>
 
-  <!-- Thin accent line under title -->
-  <rect x="280" y="130" width="240" height="2" fill="url(#accentGrad)" opacity="0.5"/>
+    <g fill="#101820" opacity="0.18">
+      <rect x="92" y="118" width="1016" height="1"/>
+      <rect x="92" y="132" width="1016" height="1"/>
+      <rect x="92" y="226" width="1016" height="1"/>
+      <rect x="92" y="240" width="1016" height="1"/>
+    </g>
 
-  <!-- Subtitle -->
-  <text x="400" y="168" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#16213e" font-weight="600" letter-spacing="2.5">
-    Single-Cell Proteomics Integration
-  </text>
+    <text x="600" y="204"
+          text-anchor="middle"
+          font-family="Aptos Display, Segoe UI, Helvetica Neue, Arial, sans-serif"
+          font-size="94"
+          font-weight="650"
+          letter-spacing="10"
+          fill="url(#ink)">SCPInt</text>
 
-  <!-- Thin dashed-style separator (horizontal line motif) -->
-  <g opacity="0.35">
-    <rect x="140" y="190" width="65" height="1.5" fill="#0f3460"/>
-    <rect x="215" y="190" width="65" height="1.5" fill="#0f3460"/>
-    <rect x="290" y="190" width="65" height="1.5" fill="#0f3460"/>
-    <rect x="365" y="190" width="65" height="1.5" fill="#0f3460"/>
-    <rect x="440" y="190" width="65" height="1.5" fill="#0f3460"/>
-    <rect x="515" y="190" width="65" height="1.5" fill="#0f3460"/>
-    <rect x="590" y="190" width="65" height="1.5" fill="#0f3460"/>
-  </g>
-
-  <!-- Tagline -->
-  <text x="400" y="214" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="14" fill="#555555" letter-spacing="1">
-    Explicit disentanglement of biological and batch variation for SCP data
-  </text>
-
-  <!-- Bottom decorative lines -->
-  <rect x="0" y="250" width="800" height="1.5" fill="url(#accentGrad)" opacity="0.5"/>
-  <rect x="0" y="256" width="800" height="3" fill="url(#topGrad)" opacity="0.9"/>
-
-  <!-- Small horizontal line spectrum at bottom -->
-  <g opacity="0.12">
-    <rect x="0"   y="265" width="35" height="3" fill="#533483"/>
-    <rect x="45"  y="265" width="80" height="3" fill="#0f3460"/>
-    <rect x="135" y="265" width="110" height="3" fill="#16213e"/>
-    <rect x="255" y="265" width="55" height="3" fill="#533483"/>
-    <rect x="320" y="265" width="160" height="3" fill="#0f3460"/>
-    <rect x="490" y="265" width="90" height="3" fill="#16213e"/>
-    <rect x="590" y="265" width="70" height="3" fill="#533483"/>
-    <rect x="670" y="265" width="130" height="3" fill="#0f3460"/>
+    <text x="600" y="236"
+          text-anchor="middle"
+          font-family="Aptos, Segoe UI, Helvetica Neue, Arial, sans-serif"
+          font-size="19"
+          font-weight="500"
+          letter-spacing="6"
+          fill="#52606a">SINGLE-CELL PROTEOMICS INTEGRATION</text>
   </g>
 </svg>
